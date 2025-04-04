@@ -8,7 +8,7 @@ breakpoints: {
   200: {
    
     slidesPerView: 2,
-    spaceBetween: 15,
+    spaceBetween: 25,
   },
   760: {
     slidesPerView: 3,
