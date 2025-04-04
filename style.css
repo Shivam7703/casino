@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-banner {
+    background: radial-gradient(circle at top, #790707 0%, #0d0d0d 60%, #000000 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff; /* Optional: ensures text stands out on dark bg */
+}
+
+.bg-card{
+    background: radial-gradient(circle at top, #fb000d 0%, transparent 70%, transparent 100%);
+
+}
+
+.animate-top{
+    animation:  slideY 5s ease-in-out infinite, flipX 0.3s ease-in-out infinite;
+}
+@keyframes slideY {
+    0% , 100%{
+        top:-80%
+    }
+    50%
+    {
+       top:50%
+    }
+}
+
+
+@keyframes flipX {
+    from {
+      transform: scaleX(1);
+    }
+    to {
+      transform: scaleX(-1);
+    }
+  }
