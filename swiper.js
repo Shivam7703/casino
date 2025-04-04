@@ -1,3 +1,38 @@
+const swiper = new Swiper('.swiper', {
+  loop: true,
+autoplay:{
+  delay:"3000"
+}  ,
+
+breakpoints: {
+  200: {
+   
+    slidesPerView: 2,
+    spaceBetween: 20,
+  },
+  760: {
+    slidesPerView: 3,
+    spaceBetween: 30,
+  },
+  1050: {
+    slidesPerView: 4,
+    spaceBetween: 25,
+  },
+},
+
+pagination: {
+    el: '.swiper-pagination2',
+    clickable: true,
+  },
+
+  navigation: {
+      nextEl: '#slide-prev',
+      prevEl: '#slide-next',
+  },
+
+});
+
+
 
 const swiper2 = new Swiper('.swiper2', {
     loop: true,
