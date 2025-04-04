@@ -2381,12 +2381,11 @@ video {
     color: #ffffff; /* Optional: ensures text stands out on dark bg */
 }
 .bg-green{
-  
-    background-image:linear-gradient(rgba(0, 0, 0, 0.161), rgba(0, 0, 0, 0.475)), url(img/green-bg.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.361), rgba(0, 0, 0, 0.475)), url(img/green-bg.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    background-position: center;
 }
 
 .bg-card{
