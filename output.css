@@ -2382,7 +2382,6 @@ video {
 }
 .bg-green{
     background-image:linear-gradient(rgba(0, 0, 0, 0.361), rgba(0, 0, 0, 0.475)), url(img/green-bg.jpg);
-    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2548,6 +2547,9 @@ video {
 
   .max-sm\:text-center {
     text-align: center;
+  }
+  .max-sm\:hidden {
+    display: none;
   }
 }
 
