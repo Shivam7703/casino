@@ -8,7 +8,7 @@ breakpoints: {
   200: {
    
     slidesPerView: 2,
-    spaceBetween: 20,
+    spaceBetween: 10,
   },
   760: {
     slidesPerView: 3,
@@ -16,7 +16,7 @@ breakpoints: {
   },
   1050: {
     slidesPerView: 4,
-    spaceBetween: 25,
+    spaceBetween: 30,
   },
 },
 
